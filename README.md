@@ -1,8 +1,23 @@
-# React + Vite
+# 3D Interactive Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 3D web portfolio featuring an airplane orbiting a stylized island. Visitors can explore key locations on the island to trigger popups highlighting my academic journey, software engineering projects, and technical experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+
+* **3D Canvas Scene:** Built with React and Three.js for smooth rendering and interactive 3D models.
+* **Flight Navigation:** An airplane continuously orbits the central island while responding to user interaction.
+* **Interactive Hotspots:** Clickable checkpoints across the island display modal popups containing detailed milestones.
+* **Project Showcase:** Highlights full-stack applications, NLP pipelines, and computer vision projects.
+* **Responsive Layout:** Designed to scale seamlessly across desktop and mobile screens.
+
+---
+
+##  Tech Stack
+
+* **Frontend:** React, HTML5, CSS3
+* **3D & Graphics:** Three.js
+* **Build Tool:** Vite / Create React App
+
+---
