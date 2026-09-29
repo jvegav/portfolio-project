@@ -23,7 +23,13 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    spring,
+    angular,
+    python,
+    docker,
+    postgresql
 } from "../assets/icons";
 
 export const skills = [
@@ -33,17 +39,34 @@ export const skills = [
     { imageUrl: html, name: "HTML", type: "Frontend" },
     { imageUrl: css, name: "CSS", type: "Frontend" },
     { imageUrl: tailwindcss, name: "Tailwind CSS", type: "Frontend" },
+    { imageUrl: angular, name: "Angular", type: "Frontend" },
     { imageUrl: nodejs, name: "Node.js", type: "Backend" },
+    { imageUrl: java, name: "Java", type: "Backend" },
+    { imageUrl: spring, name: "Spring Boot", type: "Backend" },
+    { imageUrl: python, name: "Python", type: "Backend" },
     { imageUrl: mongodb, name: "MongoDB", type: "Database" },
+    { imageUrl: postgresql, name: "PostgreSQL", type: "Database" },
     { imageUrl: express, name: "Express.js", type: "Backend" },
     { imageUrl: nextjs, name: "Next.js", type: "Frontend" },
-
+    { imageUrl: docker, name: "Docker", type: "DevOps" },
     { imageUrl: git, name: "Git", type: "Version Control" },
     { imageUrl: github, name: "GitHub", type: "Version Control" },
 
 ];
 
 export const experiences = [
+    {
+        title: "Software Design & Development Engineer",
+        company_name: "APICIL",
+        icon: car,
+        iconBg: "#e8c1a0",
+        date: "May 2026 – Aug 2026",
+        points: [
+            "Contributed to the migration of a legacy application to a microservices architecture, completing 50% of the migration scope over 4 months using Java, Spring Boot, and hexagonal architecture.",
+            "Redesigned and re-architected a flawed feature specification after independently analyzing an undocumented legacy codebase, successfully deploying the solution to production with the DevSecOps team.",
+            "Developed and maintained front-end features with Angular and TypeScript, collaborating cross-functionally with Business Analysts and senior engineers in an Agile Scrum environment (sprint planning, daily stand-ups, code reviews)."
+        ],
+    },
     {
         title: "Computer Vision Engineer",
         company_name: "Robocol Initiative – Universidad de los Andes",
@@ -150,20 +173,19 @@ export const projects = [
         link: "https://github.com/jvegav/SiteBlock-Chrome-Extension",
     },
     {
-    iconUrl: car,
-    theme: 'btn-back-yellow',
-    name: 'EcoTrade – Sustainable Student Marketplace',
-    description:
-        'EcoTrade is a full-stack circular economy web platform designed for international students at INSA Lyon and similar institutions. It allows students to buy, sell, and reuse essential items such as furniture, bikes, and electronics, reducing waste, lowering setup costs, and fostering a sustainable and supportive student community.',
-    link: 'https://eco-trade-one.vercel.app/'
-    }
-,
+        iconUrl: car,
+        theme: 'btn-back-yellow',
+        name: 'EcoTrade – Sustainable Student Marketplace',
+        description:
+            'EcoTrade is a full-stack circular economy web platform designed for international students at INSA Lyon and similar institutions. It allows students to buy, sell, and reuse essential items such as furniture, bikes, and electronics, reducing waste, lowering setup costs, and fostering a sustainable and supportive student community.',
+        link: 'https://eco-trade-one.vercel.app/'
+    },
     {
         iconUrl: car,
         theme: 'btn-back-purple',
         name: 'SDG Text Analytics – Machine Learning Project',
         description:
-            'Cocréé et développé une API REST et une application web pour classifier automatiquement des opinions citoyennes selon les Objectifs de Développement Durable (ODS 3, 4 et 5). Le projet inclut le traitement de texte via pipelines de scikit-learn, vectorisation TF-IDF, classification avec KNeighborsClassifier, réentraînement du modèle avec de nouvelles données, et visualisation des résultats pour l’utilisateur final.',
+            'Co-developed a REST API and web application to automatically classify citizen feedback according to the UN Sustainable Development Goals (SDG 3, 4, and 5). The project includes text preprocessing pipelines with scikit-learn, TF-IDF vectorization, classification with KNeighborsClassifier, continuous model retraining on new data, and result visualization for end users.',
         link: "https://github.com/jvegav/Proyecto-1-pipeline",
     },
 ];
