@@ -24,11 +24,6 @@ import {
     tailwindcss,
     threads,
     typescript,
-    java,
-    spring,
-    python,
-    docker,
-    postgresql
 } from "../assets/icons";
 
 export const skills = [
