@@ -26,7 +26,6 @@ import {
     typescript,
     java,
     spring,
-    angular,
     python,
     docker,
     postgresql
@@ -39,7 +38,6 @@ export const skills = [
     { imageUrl: html, name: "HTML", type: "Frontend" },
     { imageUrl: css, name: "CSS", type: "Frontend" },
     { imageUrl: tailwindcss, name: "Tailwind CSS", type: "Frontend" },
-    { imageUrl: angular, name: "Angular", type: "Frontend" },
     { imageUrl: nodejs, name: "Node.js", type: "Backend" },
     { imageUrl: java, name: "Java", type: "Backend" },
     { imageUrl: spring, name: "Spring Boot", type: "Backend" },
